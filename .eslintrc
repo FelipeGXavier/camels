@@ -14,14 +14,14 @@
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint"
   ],
+  "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
   "rules": {
     "no-restricted-syntax": "off",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/require-await": "off",
     "no-shadow": "off",
-    "no-console": "off",
-    "no-unused-vars": [2, { "args": "all", "argsIgnorePattern": "^_" }]
+    "no-console": "off"
   },
   "settings": {
     "import/parsers": {
